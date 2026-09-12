@@ -1,0 +1,7 @@
+version: 0.1.0
+status: draft
+spec: "[Spec 名称]"
+description: "当前 Spec 的公共接口契约"
+interfaces: []
+# 没有稳定公共接口时保留空数组，并补充：
+# reason: "本 Spec 不对外暴露稳定公共接口"
