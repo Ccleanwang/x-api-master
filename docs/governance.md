@@ -1,24 +1,24 @@
 ---
 title: "个人项目文档治理规范"
 status: approved
-version: 2.0.0
+version: 2.0.1
 author: "ForrestWang"
 created: 2026-08-25
-updated: 2026-08-30
+updated: 2026-09-12
 ---
 
 # 个人项目文档治理规范
 
 ## 1. 目的
 
-本规范为 `agent-learning-lab` 下的项目提供统一的项目、Spec、设计决策、接口契约、任务跟踪和验证证据管理方式。
+本规范为 `x-api-master` 项目提供统一的项目、Spec、设计决策、接口契约、任务跟踪和验证证据管理方式。
 
 ## 2. 文档层级与目录
 
 项目级文档维护整体方向；每个独立开发范围建立一个 Spec，维护自己的治理文档：
 
 ```text
-agent-learning-lab/
+x-api-master/
 ├── docs/
 │   ├── governance.md
 │   └── templates/
@@ -116,6 +116,7 @@ interfaces: []
 | --- | --- | --- | --- |
 | 1.0.0 | 2026-08-25 | 建立项目文档治理规范 | 统一项目核心文档管理 |
 | 2.0.0 | 2026-08-27 | 引入项目/Spec 两层结构，合并 ADR 到 design，新增 API Schema | 支持大型项目按独立 Spec 演进 |
+| 2.0.1 | 2026-09-12 | 应用于 x-api-master 项目 | 建立本项目的 SDD 文档治理基础 |
 
 ## 10. 审阅记录
 
