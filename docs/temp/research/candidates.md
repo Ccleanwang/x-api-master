@@ -1,5 +1,9 @@
 # GitHub 候选项目
 
+新增候选：用户提出的 [Sub2API](notes/sub2api.md) 已完成 README/依赖/部署初筛，待核对私有模型接入、并发和简化模式。当前为 New API、LiteLLM、Sub2API 三候选；第三项证据深度较浅，不直接并列判定能力已支持。
+
+2026-09-14 范围更新：当前主候选为 New API 与 LiteLLM；One API 转为历史参考，其余项目暂缓深入。下表保留首轮筛选记录，当前优先级以此说明和 [最小改造清单](minimal-adaptation.md) 为准。
+
 ## 状态
 
 第一轮候选清单。项目定位和技术信息来自 GitHub 仓库公开信息，尚未进行 README 深度阅读或最终选型。
