@@ -1,10 +1,10 @@
 ---
 title: "x-api-master 项目说明"
 status: draft
-version: 0.1.0
+version: 0.3.0
 author: "ForrestWang"
 created: 2026-09-12
-updated: 2026-09-13
+updated: 2026-09-15
 ---
 
 # x-api-master 项目说明
@@ -61,9 +61,11 @@ GPU 集群与基础设施调度
 
 ## 4. Spec 路线
 
+Spec 目录位于 `docs/specs/`，与 `governance.md`、`templates/` 同级。`governance.md` 第 2 节描述的是多个子项目共用一份治理规范时的通用布局（`<project>/docs/specs/`）；本项目仓库根目录即为项目目录，故取 `docs/specs/`。
+
 | Spec ID | Spec 名称 | 范围摘要 | 状态 | 文档路径 |
 | --- | --- | --- | --- | --- |
-| - | 待确定 | 待需求讨论 | planned | `docs/specs/` |
+| SPEC-001 | 统一 API 接入与业务管理 | 对应模块一：私有模型的统一接入、用户与分组授权、API Key 发放与停用、请求治理与按人额度 | draft | `docs/specs/api-integration/` |
 
 ## 5. Spec 关系
 
@@ -81,6 +83,7 @@ GPU 集群与基础设施调度
 | --- | --- | --- | --- |
 | 0.1.0 | 2026-09-12 | 建立项目说明 | 初始化 SDD 文档结构 |
 | 0.2.0 | 2026-09-13 | 记录四个大模块及技术选型状态 | 明确项目总体架构，暂不锁定技术栈 |
+| 0.3.0 | 2026-09-15 | 建立 SPEC-001 路线，明确 Spec 目录为 `docs/specs/` | 模块一调研完成，进入 Spec 阶段 |
 
 ## 8. 审阅记录
 
